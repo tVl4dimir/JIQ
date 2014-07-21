@@ -2,7 +2,7 @@
 
 main(){
 
-
+printf("EISAI GAY");
 
 return 0;
 }
