@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1406042470 source:e:\programming\git\jiq\main.cpp
+	"main.h"
+
+1406044195 e:\programming\git\jiq\main.h
+	<cstdio>
+	<cstdlib>
+	<ctime>
+	"streamGenerator.h"
+	"queues.h"
+
+1406042942 e:\programming\git\jiq\streamgenerator.h
+	"main.h"
+
+1406042437 source:e:\programming\git\jiq\streamgenerator.cpp
+	"streamGenerator.h"
+
+1406047422 e:\programming\git\jiq\queues.h
+
