@@ -7,12 +7,12 @@ public:
     queues();
     ~queues();
     int *m_queue;
-    int m_size;
-    int m_count;
+    int m_size, m_count, m_start, m_end;
 
     int checkQueue();
-    void pushQueue();
+    void pushQueue(int x);
     int popQueue();
+    int getQueue(int x);
 };
 
 #endif // QUEUES_H_
