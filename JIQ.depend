@@ -1,22 +1,33 @@
 # depslib dependency file v1.0
-1406060958 source:e:\programming\git\jiq\main.cpp
+1408634945 source:c:\c-c++\jiq\src\main.cpp
 	"main.h"
 
-1406044195 e:\programming\git\jiq\main.h
-	<cstdio>
-	<cstdlib>
+1407848091 c:\c-c++\jiq\include\main.h
+	<iostream>
+	<thread>
+	<queue>
+	<mutex>
+	"streamGenerator.h"
+	"dispatcher.h"
+
+1407506079 c:\c-c++\jiq\include\streamgenerator.h
+	<random>
 	<ctime>
-	"streamGenerator.h"
-	"queues.h"
+	<thread>
 
-1406042942 e:\programming\git\jiq\streamgenerator.h
-	"main.h"
-
-1406042437 source:e:\programming\git\jiq\streamgenerator.cpp
+1407590498 source:c:\c-c++\jiq\src\streamgenerator.cpp
 	"streamGenerator.h"
 
-1406060569 e:\programming\git\jiq\queues.h
+1408637237 source:c:\c-c++\jiq\src\dispatcher.cpp
+	"dispatcher.h"
 
-1406060800 source:e:\programming\git\jiq\queues.cpp
-	"queues.h"
+1408637238 c:\c-c++\jiq\include\dispatcher.h
+	<queue>
+	<atomic>
+	<iostream>
+
+1407594364 source:c:\c-c++\jiq\src\queue.cpp
+	"queue.h"
+
+1407594409 c:\c-c++\jiq\include\queue.h
 
