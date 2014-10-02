@@ -2,11 +2,11 @@
 #define MAIN_H_
 
 #include <iostream>
-#include <thread>
-#include <queue>
-#include <mutex>
+#include <vector>
+#include <ctime>
 
-#include "streamGenerator.h"
+#include "states.h"
+#include "functions.h"
 #include "dispatcher.h"
 
 #endif // MAIN_H_

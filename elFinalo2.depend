@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1412092236 source:e:\programming\git\elfinalo2\functions.cpp
+	"functions.h"
+
+1412092217 e:\programming\git\elfinalo2\functions.h
+	<cstdlib>
+	<vector>
+	"dispatcher.h"
+
+1412092218 source:e:\programming\git\elfinalo2\main.cpp
+	"main.h"
+
+1411438713 e:\programming\git\elfinalo2\main.h
+	<iostream>
+	<vector>
+	<ctime>
+	"states.h"
+	"functions.h"
+	"dispatcher.h"
+
+1412090108 e:\programming\git\elfinalo2\states.h
+
+1412091792 source:e:\programming\git\elfinalo2\dispatcher.cpp
+	"dispatcher.h"
+
+1412091908 e:\programming\git\elfinalo2\dispatcher.h
+	<queue>
+	"states.h"
+
